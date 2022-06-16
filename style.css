@@ -1,0 +1,76 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom left, orange, white);
+}
+
+main {
+    background-color: white;
+    margin: 20px;
+    padding: 25px;
+}
+
+h1 {
+    margin: 0;
+    padding: 25px;
+}
+
+img {
+    width: 300px;
+    height: 300px
+}
+
+/* Controls and Message Styles */
+.flip-scoreboard {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.message-prompt {
+    color: darkorange;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button {
+    font-size: 1.5em;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#flip,
+#reset {
+    background: linear-gradient(to bottom left, lightblue, white);
+}
+
+#flip:hover,
+#reset:hover {
+    background: linear-gradient(to bottom left, darkblue, lightblue);
+}
+
+#reset {
+    background: linear-gradient(to bottom left, orange, white);
+}
+
+#reset:hover {
+    background: linear-gradient(to bottom left, red, orange);
+}
+
+/* Scoreboard Styles */
+table,
+th,
+td {
+    border: 1px solid darkorange;
+    margin: 0 auto;
+}
+
+td {
+    padding: 5px;
+    font-weight: bold;
+}
